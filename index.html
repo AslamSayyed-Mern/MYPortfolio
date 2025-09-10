@@ -16,7 +16,7 @@
   </head>
   <body>
     <header class="header">
-      <a href="#home" class="logo">Aslam  <span>Syed</span></a>
+      <a href="#home" class="logo"><span class="logo-chevron">&lt;</span> Aslam <span class="logo-slash">&sol;</span> Syed <span class="logo-chevron">&gt;</span></a>
       <div class="nav-icons">
         <button class="theme-toggle" id="themeToggle">
           <i class="fas fa-sun"></i>
@@ -29,14 +29,15 @@
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#mini-projects">Mini Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
     <section class="home" id="home">
      <div class="home-content">
-      <h1>Hi,It's<span> Aslam</span></h1>
-      <h3>I'm a<span> Frontend Developer</span> </h3>
-      <p> Aspiring Full Stack Developer with a strong foundation in front-end technologies like HTML, CSS, and basic JavaScript, along with Python for backend logic. Passionate about building responsive and user-friendly web applications. </p>
+      <h1>Hi,I'm<span> Aslam</span></h1>
+      <h3><span> Full Stack Developer</span> </h3>
+      <p>Skilled in creating responsive, user-focused applications using <b>HTML5</b>, <b>CSS3</b>, <b>JavaScript (ES6+)</b>, <b>React.js</b>, and <b>Bootstrap</b>. Proficient in backend development with <b>Python</b> and <b>Django</b>, and experienced in working with <b>MySQL</b>. Committed to delivering high-quality, scalable, and maintainable solutions aligned with modern industry standards </p>
       <div class="social-icons">
         <a href="https://www.instagram.com/syed.aslam01?igsh=OGlqeXA3amgwd3c0" target="_blank">
           <i class="bx bxl-instagram-alt"></i>
@@ -51,7 +52,7 @@
         </a>
       </div>
       <div class="btn-group">
-        <a href="./ASLAM SAYYED ATS.pdf" class="btn" download="AslamResume">Download CV</a>
+        <a href="./ASLAM SAYYED UPDATED.pdf" class="btn" download="AslamResume">Download CV</a>
         <a href="mailto:sayedaslam4321@gmail.com" class="btn">Contact</a>
       </div>
      </div>
@@ -65,7 +66,7 @@
     </div>
     <div class="about-content">
       <h2>About <span>Me</span></h2>
-      <p>Currently expanding my skills in React.js and backend development to grow into a well-rounded Full Stack Developer. Eager to learn, adapt, and contribute to innovative projects while continuously improving my technical expertise.And I enjoy turning ideas into interactive, real-world projects that offer great user experiences</p>
+      <p>I am currently expanding my skill set by learning <b>Node.js</b>, <b>Express.js</b>, advanced <b>MongoDB</b>, and <b>REST API</b> best practices, while exploring modern technologies like <b>Large Language Models (LLMs)</b>, <b>AI workflow automation</b>, and <b>prompt engineering</b>. Skilled in <b>Responsive Web Design</b>, <b>DOM Manipulation</b>, and <b>API Integration</b>, with strengths in problem-solving, debugging, and scalability. I value <b>team collaboration</b>, <b>time management</b>, and <b>continuous learning</b> in every project I undertake.</p>
       <a href="#" class="btn">Read More</a>
     </div>
 
@@ -146,10 +147,19 @@
        <i class='bx bxl-python'></i>
         <h3>Python</h3>
       </div>
+      <div class="skill-card">
+       <i class='bx bxl-django'></i>
+        <h3>Django</h3>
+      </div>
 
       <div class="skill-card">
         <i class='bx bxl-react'></i>
         <h3>React.js</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class='bx bxs-data'></i>
+        <h3>MySQL</h3>
       </div>
 
       <div class="skill-card">
@@ -165,6 +175,11 @@
       <div class="skill-card">
         <i class='bx bxl-bootstrap'></i>
         <h3>Bootstrap</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class='bx bxl-tailwind-css'></i>
+        <h3>Tailwind CSS</h3>
       </div>
 
       <div class="skill-card">
@@ -199,6 +214,10 @@
         <i class='bx bx-mobile-alt'></i>
         <h3>Responsive Design</h3>
       </div>
+      <div class="skill-card">
+       <i class='bx bxl-visual-studio'></i>
+        <h3>Vs Code</h3>
+      </div>
       
       <div class="skill-card">
         <i class='bx bx-time'></i>
@@ -211,10 +230,15 @@
     <h2 class="heading">My <span>Projects</span></h2>
     <div class="projects-container">
       <div class="project-box">
-        <img src="project-images/porfolio.jpeg" alt="Portfolio Project">
+        <img src="./Project-images/porfolio.jpeg" alt="Portfolio Project">
         <div class="project-info">
           <h3>Portfolio Website</h3>
           <p>A responsive portfolio website built with HTML, CSS, and JavaScript showcasing my skills and projects.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
           <div class="project-links">
             <a href="https://github.com/AslamSayyed-Mern" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
             <a href="#" target="_blank" title="Live Demo"><i class='bx bx-link-external'></i></a>
@@ -222,11 +246,70 @@
         </div>
       </div>
 
+        <div class="project-box">
+        <img src="./Project-images/Flipkart.webp"alt="E-Commerce Frontend">
+        <div class="project-info">
+          <h3>Flipkart Frontend Clone</h3>
+          <p>A Frontend Clone Of Flipkart e-commerce platform with modern UI/UX design and responsive layout.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Bootstrap</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/AslamSayyed-Mern" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+            <a href="https://aslamsayyed-mern.github.io/FlipKartClone/" target="_blank" title="Live Demo"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+
+ 
+    
       <div class="project-box">
-        <img src="project-images/E-Commerce.jpg" alt="E-Commerce Project">
+        <img src="./Project-images/NewsApplication.webp "alt="E-Commerce Frontend">
+        <div class="project-info">
+          <h3>News App</h3>
+          <p>Built a News App with real time Data</p>
+          <div class="project-tags">
+            <span>HTML,CSS</span>
+            <span>API</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://aslamsayyed-mern.github.io/News_App/" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/posts/aslam-sayyed-mernstack_javascript-html-css-activity-7352321197549752320-MINH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFOvLFcBOljCEPYwc3So8cpvRVbgdqN-d-Q" target="_blank" title="Live Demo"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-box">
+        <img src="./Project-images/Govt_job_notification_workflow.png" alt="E-Commerce Project">
+        <div class="project-info">
+          <h3>Automated Govt Job Notification Workflow</h3>
+          <p>Built a no-code automation in n8n to fetch, format, and email top government job listings via RSS, reducing manual effort by 90%</p>
+          <div class="project-tags">
+            <span>AI Automation</span>
+            <span>n8n</span>
+            <span>HTML,JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/AslamSayyed-Mern" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/posts/aslam-sayyed-mernstack_n8n-automation-lowcode-activity-7325413342582390784-jwWj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFOvLFcBOljCEPYwc3So8cpvRVbgdqN-d-Q" target="_blank" title="Live Demo"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+
+        <div class="project-box">
+        <img src="./Project-images/E-Commerce.jpg" alt="E-Commerce Project">
         <div class="project-info">
           <h3>E-Commerce Website</h3>
           <p>A full-stack e-commerce platform with user authentication, product management, and payment integration.</p>
+          <div class="project-tags">
+            <span>React JS</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+            <span>API</span>
+          </div>
           <div class="project-links">
             <a href="https://github.com/AslamSayyed-Mern" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
             <a href="#" target="_blank" title="Live Demo"><i class='bx bx-link-external'></i></a>
@@ -235,22 +318,15 @@
       </div>
 
       <div class="project-box">
-        <img src="project-images/e-commercefrontend.png" alt="E-Commerce Frontend">
-        <div class="project-info">
-          <h3>E-Commerce Frontend</h3>
-          <p>A Frontend e-commerce platform with modern UI/UX design and responsive layout.</p>
-          <div class="project-links">
-            <a href="https://github.com/AslamSayyed-Mern" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
-            <a href="#" target="_blank" title="Live Demo"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-box">
-        <img src="project-images/Taskmanagement.jpg" alt="Task Management App">
+        <img src="./Project-images/Taskmanagement.jpg" alt="Task Management App">
         <div class="project-info">
           <h3>Task Management App</h3>
           <p>A React-based task management application with features like task creation, editing, and status tracking.</p>
+          <div class="project-tags">
+            <span>React JS</span>
+            <span>JavaScript</span>
+            <span>API</span>
+          </div>
           <div class="project-links">
             <a href="https://github.com/AslamSayyed-Mern" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
             <a href="#" target="_blank" title="Live Demo"><i class='bx bx-link-external'></i></a>
@@ -259,8 +335,182 @@
       </div>
     </div>
   </section>
+  <!-- Mini Projects Section -->
+  <section class="mini-projects" id="mini-projects">
+    <h2 class="heading">Mini <span>Projects</span></h2>
+    <div class="mini-projects-container">
+      
+      <div class="mini-project-box">
+        <img src="./Project-images/Ai_agent.png" alt="Calculator">
+        <div class="mini-project-info">
+          <h3>AI Agent</h3>
+          <p>Built an AI-powered web assistant with HTML, CSS, and JavaScript, using Google's Gemini API for real-time, natural language conversations in a ChatGPT-style interface</p>
+          <div class="mini-btn-group">
+            <a href="https://github.com/AslamSayyed-Mern/AI-AGENT" target="_blank" class="mini-btn">GitHub</a>
+            <a href="https://aslamsayyed-mern.github.io/AI-AGENT/" target="_blank" class="mini-btn">Deploy</a>
+          </div>
+        </div>
+      </div>
+      <div class="mini-project-box">
+        <img src="./Project-images/OGWheaterApp.PNG" alt="Weather App">
+        <div class="mini-project-info">
+          <h3>Weather App</h3>
+          <p>Developed a simple weather app using HTML, CSS, and JavaScript that fetches real-time weather data from an API and displays it in a clean, responsive interface.</p>
+          <div class="mini-btn-group">
+            <a href="https://github.com/AslamSayyed-Mern/Weather-App/tree/main/Weather%20APP" 
+           target="_blank"  class="mini-btn">GitHub</a>
+            <a href="https://aslamsayyed-mern.github.io/Weather-App/Weather%20APP/"
+            target="_blank" class="mini-btn">Deploy</a>
+          </div>
+        </div>
+      </div>
+      <div class="mini-project-box">
+        <img src="./Project-images/Gradient_generator.PNG" alt="Weather App">
+        <div class="mini-project-info">
+          <h3>Gradient Generator</h3>
+          <p>Developed a  Linear Gradient Generator app using HTML, CSS, and JavaScript </p>
+          <div class="mini-btn-group">
+            <a href="https://github.com/AslamSayyed-Mern/Gradient_Generator" 
+           target="_blank"  class="mini-btn">GitHub</a>
+            <a href="https://aslamsayyed-mern.github.io/Gradient_Generator/"
+            target="_blank" class="mini-btn">Deploy</a>
+          </div>
+        </div>
+      </div>
+      <div class="mini-project-box">
+        <img src="./Project-images/Stop_watch.PNG" alt="Calculator">
+        <div class="mini-project-info">
+          <h3>Stop Watch</h3>
+          <p>Created a stopwatch using HTML, CSS, and JavaScript, utilizing setInterval and clearInterval for precise time tracking and control.</p>
+          <div class="mini-btn-group">
+            <a href="https://github.com/AslamSayyed-Mern/Stop_Watch" target="_blank" class="mini-btn">GitHub</a>
+            <a href="https://aslamsayyed-mern.github.io/Stop_Watch/" target="_blank" class="mini-btn">Deploy</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mini-project-box">
+        <img src="./Project-images/DigitalClock.PNG" alt="Calculator">
+        <div class="mini-project-info">
+          <h3>Digital Clock</h3>
+          <p>Created a Digital Clock using HTML, CSS, and JavaScript, leveraging the Date object to display real-time updates.</p>
+          <div class="mini-btn-group">
+            <a href="https://github.com/AslamSayyed-Mern/Digital_Clock/" target="_blank" class="mini-btn">GitHub</a>
+            <a href="https://aslamsayyed-mern.github.io/Digital_Clock/" target="_blank" class="mini-btn">Deploy</a>
+          </div>
+        </div>
+      </div>
+      
+        
+      
+        
+      <div class="mini-project-box">
+        <img src="./Project-images/My_blog.PNG" alt="Calculator">
+        <div class="mini-project-info">
+          <h3>My Blog</h3>
+          <p>Designed a personal photography blog using HTML and CSS, showcasing original photographs with a clean, visually appealing layout.</p>
+          <div class="mini-btn-group">
+            <a href="https://github.com/AslamSayyed-Mern/W3schools-Templates/blob/main/W3SchoolsTemplate/Template2/index.html" target="_blank" class="mini-btn">GitHub</a>
+            <a href="https://aslamsayyed-mern.github.io/W3schools-Templates/W3SchoolsTemplate/Template2/" target="_blank" class="mini-btn">Deploy</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mini-project-box">
+        <img src="./Project-images/TODO-List.PNG" alt="To-Do List">
+        <div class="mini-project-info">
+          <h3>To-Do List</h3>
+          <p>Manage daily tasks with this interactive to-do list app using JavaScript and local storage.</p>
+          <div class="mini-btn-group">
+            <a href="https://github.com/AslamSayyed-Mern/TODO-JavaScript/tree/main/TODO-LIST" target="_blank" class="mini-btn">GitHub</a>
+            <a href="https://aslamsayyed-mern.github.io/TODO-JavaScript/TODO-LIST/index.html"  target="_blank" class="mini-btn">Deploy</a>
+          </div>
+        </div>
+      </div>
+      <div class="mini-project-box">
+        <img src="./Project-images/Quizz-App.PNG" alt="To-Do List">
+        <div class="mini-project-info">
+          <h3>Quiz-App</h3>
+          <p>Built a quiz App with HTML CSS JavaScript</p>
+          <div class="mini-btn-group">
+            <a href="https://github.com/AslamSayyed-Mern/quiz_app/" target="_blank" class="mini-btn">GitHub</a>
+            <a href="https://aslamsayyed-mern.github.io/quiz_app/"  target="_blank" class="mini-btn">Deploy</a>
+          </div>
+        </div>
+      </div>
+      <div class="mini-project-box">
+        <img src="./Project-images/Calculator.PNG" alt="Calculator">
+        <div class="mini-project-info">
+          <h3>Calculator</h3>
+          <p>Basic calculator built with HTML, CSS,JavaScript and React Js for simple arithmetic operations.</p>
+          <div class="mini-btn-group">
+            <a href="https://github.com/AslamSayyed-Mern/Calculator" target="_blank" class="mini-btn">GitHub</a>
+            <a href="https://aslamsayyed-mern.github.io/Calculator/" target="_blank" class="mini-btn">Deploy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <!-- My Certifications Section -->
+  <section class="certifications" id="certifications">
+    <h2 class="heading">My <span>Certifications</span></h2>
+    <div class="certifications-container">
+      <div class="certification-card">
+         <div class="certification-info">
+           <h3>Python Essential by Simplilearn</h3>
+           <p>Covered all Basic To Advance Concepts of Python.</p>
+           <a href="https://www.linkedin.com/posts/aslam-sayyed-mernstack_aslam-sayyed-has-successfully-completed-the-activity-7307323138529288193-UJn1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFOvLFcBOljCEPYwc3So8cpvRVbgdqN-d-Q"  target="_blank" class="cert-btn">View</a>
+         </div>
+       </div>
+       <div class="certification-card">
+         <div class="certification-info">
+           <h3>MERN Stack</h3>
+           <p>Completed a full stack MERN certification with hands-on projects @10k Coders.</p>
+           <a href="#" class="cert-btn">View</a>
+         </div>
+       </div>
+       <div class="certification-card">
+         <div class="certification-info">
+           <h3>Business Analytics</h3>
+           <p>Certified in Business Analytics at @Unnati Skills Centre.</p>
+           <a href="#" class="cert-btn">View</a>
+         </div>
+       </div>
+    </div>
+  </section>
   <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me</span></h2>
+    
+    <!-- Social Contact Links -->
+    <div class="contact-social-container">
+      <div class="contact-social-box">
+        <a href="https://github.com/AslamSayyed-Mern" target="_blank" class="contact-social-link">
+          <i class='bx bxl-github'></i>
+          <span>GitHub</span>
+        </a>
+      </div>
+      <div class="contact-social-box">
+        <a href="mailto:sayedaslam4321@gmail.com" class="contact-social-link">
+          <i class='bx bx-envelope'></i>
+          <span>Email</span>
+        </a>
+      </div>
+      <div class="contact-social-box">
+        <a href="https://www.linkedin.com/in/aslam-sayyed-mernstack" target="_blank" class="contact-social-link">
+          <i class='bx bxl-linkedin-square'></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+      <div class="contact-social-box">
+        <a href="https://Wa.me/+919542019584/?text=Hello Aslam sayyed" target="_blank" class="contact-social-link">
+          <i class='bx bxl-whatsapp'></i>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+      
+    </div>
+
     <form action="">
       <div class="input-group">
         <div class="input-box">
