@@ -134,7 +134,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8rem;
+    gap: 4rem;
     width: 100%;
   }
 
@@ -189,7 +189,7 @@
     font-size: 6rem;
     font-weight: 700;
     margin: 0 0 1rem 0;
-    line-height: 1.1;
+    line-height: 1;
     color: var(--text-color);
   }
 
@@ -201,7 +201,7 @@
 
   .home-content h3 {
     font-size: 3rem;
-    margin: 0.5rem 0 1.5rem 0;
+    margin: 0.5rem 0 1rem 0;
     color: var(--text-color);
     font-weight: 500;
   }
@@ -217,7 +217,7 @@
     line-height: 1.8;
     color: var(--text-color);
     opacity: 0.9;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .home-content p b {
